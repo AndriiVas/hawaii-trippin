@@ -42,22 +42,32 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
-                            Services
+                            <Link to='/maui' className='nav-links' onClick={closeMobileMenu}>
+                            Maui
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/products' className='nav-links' onClick={closeMobileMenu}>
-                            Products
+                            <Link to='/kauai' className='nav-links' onClick={closeMobileMenu}>
+                            Kauai
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
-                            Sign Up
+                            <Link to='/kona' className='nav-links' onClick={closeMobileMenu}>
+                            Kona
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to='/oahu' className='nav-links' onClick={closeMobileMenu}>
+                            Oahu
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to={{ pathname: "https://www.google.com/travel/flights" }} target="_blank" className='nav-links-mobile' onClick={closeMobileMenu}>
+                            Book It!
                             </Link>
                         </li>
                     </ul>
-                    {button &&<Button buttonStyle='btn--outline'>SIGN UP</Button>}
+                    {button &&<Button onClick={()=> window.open("https://www.google.com/travel/flights", "_blank")} buttonStyle='btn--outline'>Book It!</Button>}
                 </div>
             </nav>
         </>
