@@ -1,0 +1,42 @@
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block; /* remove extra space below image */
+}
+
+.image-wrapper {
+  display: table-cell;
+  margin: 20px;
+}
+
+.item-container {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 6px 15px rgba(56, 125, 255, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  margin-bottom: 2rem;
+}
+
+.text-wrapper {
+  margin: 20px;
+}
+
+h1 {
+  margin: 20px;
+}
+
+p {
+  word-wrap: break-word;
+}
+
+header {
+  margin-bottom: 40px;
+  font-size: 50px;
+}
+
+@media screen and (max-width: 960px) {
+  .item-container {
+    flex-direction: column;
+  }
+}
