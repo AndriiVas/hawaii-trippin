@@ -2,6 +2,7 @@ import React from "react";
 import "../../App.css";
 import IslandHeroSection from "../IslandHeroSection";
 import Item from "../Item";
+import ScrollToTopBtn from "../ScrollToTopBtn";
 
 const h1Style = {
   fontFamily: "Alessa",
@@ -79,6 +80,7 @@ export default function Maui() {
         header="Road to Hana"
         text="When it comes to driving the Hana Highway on Maui, it's the journey, not the destination, that is the main attraction. There are few words that can describe the beauty of this drive with its cliffs cloaked in green and lush valleys bursting with waterfalls. Curves hug the coast and gaze over an ocean that stretches uninterrupted all the way to the Alaskan coastline. Couple that with black, red, and white sand beaches, a multitude of trails, and beautiful gardens and you've discovered the highway to heaven itself."
       />
+      <ScrollToTopBtn />
     </>
   );
 }
