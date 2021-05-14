@@ -14,6 +14,7 @@ export default function Maui() {
   return (
     <>
       <IslandHeroSection
+        island="maui"
         src=""
         islandLabel="Maui"
         islandShortDesc="My Favorite island!"

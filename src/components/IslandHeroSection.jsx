@@ -3,9 +3,9 @@ import { Button } from "./button";
 import "../App.css";
 import "./IslandHeroSection.css";
 
-function IslandHeroSection({ src, islandLabel, islandShortDesc }) {
+function IslandHeroSection({ island, src, islandLabel, islandShortDesc }) {
   return (
-    <div className="island-hero-container">
+    <div className={`${island} island-hero-container`}>
       <div className="image-container">
         <img src={src} alt="" />
       </div>
