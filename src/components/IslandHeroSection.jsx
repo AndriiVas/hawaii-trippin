@@ -13,6 +13,12 @@ function IslandHeroSection({ src, islandLabel, islandShortDesc }) {
       <p>{islandShortDesc}</p>
       <div className="hero-btns">
         <Button
+          onClick={(e) => {
+            e.preventDefault();
+            document
+              .querySelector("#visit")
+              .scrollIntoView({ behavior: "smooth", block: "start" });
+          }}
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
@@ -20,6 +26,12 @@ function IslandHeroSection({ src, islandLabel, islandShortDesc }) {
           Visit
         </Button>
         <Button
+          onClick={(e) => {
+            e.preventDefault();
+            document
+              .querySelector("#go-eat")
+              .scrollIntoView({ behavior: "smooth", block: "start" });
+          }}
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
@@ -27,6 +39,12 @@ function IslandHeroSection({ src, islandLabel, islandShortDesc }) {
           Go Eat
         </Button>
         <Button
+          onClick={(e) => {
+            e.preventDefault();
+            document
+              .querySelector("#excursions")
+              .scrollIntoView({ behavior: "smooth", block: "start" });
+          }}
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"

@@ -7,9 +7,9 @@ import Home from './components/pages/Home';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 import Maui from './components/pages/Maui';
-import Kauia from './components/pages/Kauai';
 import Kona from './components/pages/Kona';
 import Oahu from './components/pages/Oahu';
+import Kauai from './components/pages/Kauai';
 
 function App() {
 
@@ -23,7 +23,7 @@ function App() {
       <Switch>
         <Route path='/' exact component={Home}/>
         <Route path='/maui' component={Maui}/>
-        <Route path='/kauai' component={Kauia}/>
+        <Route path='/kauai' component={Kauai}/>
         <Route path='/kona' component={Kona}/>
         <Route path='/oahu' component={Oahu}/>
 
