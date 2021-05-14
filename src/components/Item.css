@@ -5,9 +5,8 @@ img {
 }
 
 .image-wrapper {
-  display: table-cell;
   margin: 20px;
-  width: 2000px;
+  flex-basis: 33.33%;
 }
 
 .item-container {
@@ -22,6 +21,7 @@ img {
 
 .text-wrapper {
   margin: 20px;
+  flex-basis: 66.66%;
 }
 
 @font-face {
@@ -35,6 +35,7 @@ h1 {
 
 p {
   word-wrap: break-word;
+  font-size: larger;
 }
 
 header {

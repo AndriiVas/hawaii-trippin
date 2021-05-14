@@ -5,7 +5,7 @@ import "./IslandHeroSection.css";
 
 function IslandHeroSection({ src, islandLabel, islandShortDesc }) {
   return (
-    <div className="hero-container">
+    <div className="island-hero-container">
       <div className="image-container">
         <img src={src} alt="" />
       </div>
