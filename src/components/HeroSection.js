@@ -12,7 +12,7 @@ function HeroSection() {
     
     return (
         <div className='hero-container'>
-            <video src='/videos/maui.mp4' autoPlay loop muted/>
+            <video src='/videos/maui.mp4' playsInline autoPlay loop muted/>
             <h1>Favorite spots in Hawaii</h1>
             <p>What are you waiting for?</p>
             <div className='hero-btns'>
