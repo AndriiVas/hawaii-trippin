@@ -10,30 +10,30 @@ function Cards() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src="images/maui-logo.jpg"
-              text="Explore the hidden waterfall deep inside the Amazon Jungle"
-              label="Adventure"
+              src="images/maui-logo1.jpg"
+              text="A beautiful blend of beaches, volcanoes, palm trees, and tropical agriculture"
+              label="Best"
               path="/maui"
             />
             <CardItem
-              src="images/kauai-logo.png"
-              text="Travel through the Islands of Bali in a Private Cruise"
-              label="Luxury"
+              src="images/kauai-logo1.png"
+              text="The oldest in Hawaii’s modern-day chain, Kauaʻi has a reputation for being a lush island; hence, its nickname as the Garden Island"
+              label="Greenest"
               path="/kauai"
             />
           </ul>
           <ul className="cards__items">
             <CardItem
-              src="images/kona-logo.png"
-              text="Set Sail in the Atlantic Ocean visiting Uncharted Waters"
-              label="Mystery"
+              src="images/kona-logo1.png"
+              text="Kona Coast is the prime area on Hawaii Islands for discovering marine life"
+              label="Biggest"
               path="/kona"
             />
 
             <CardItem
-              src="images/oahu-logo.png"
-              text="Ride through the Sahara Desert on a guided camel tour"
-              label="Adrenaline"
+              src="images/oahu-logo1.png"
+              text="When you think of Oahu you think of the three S’s — sun, surf, and shopping"
+              label="Touristy"
               path="/oahu"
             />
           </ul>

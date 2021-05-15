@@ -19,6 +19,10 @@
   background: url(../images//kona.jpg) center center/cover no-repeat;
 }
 
+.oahu {
+  background: url(../images/oahu.jpg) center center/cover no-repeat;
+}
+
 .island-hero-container > h1 {
   color: white;
   font-size: 100px;

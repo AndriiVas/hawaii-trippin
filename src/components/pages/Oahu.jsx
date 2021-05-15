@@ -23,60 +23,60 @@ export default function Oahu() {
       <h1 style={h1Style}>Visit</h1>
 
       <Item
-        imageUrl="images/akaka.jpg"
-        header="Akaka Falls State Park"
-        text="Everywhere you look, you are surrounded by gorgeous plants including giant ti plants, birds of paradise, torch ginger, bamboo, and split leaf philodendron. You will hear the dull roar of the waterfall before you see it. Just as you round a corner, you'll catch a glimpse of Akaka Falls free falling 442 ft. Through a green-lined gorge. In our opinion, the best time to photograph the falls is early in the morning on a slightly cloudy day; the filtered sunlight allows the greenery to accentuate Akaka's misty waters. Further up the path are signs leading to Kahuna Falls, a beautiful but slightly less awe-inspiring waterfall, as most of it is obscured by greenery. The trail eventually loops back to the parking lot, where there are full facilities. Altogether, the path is only 0.4 miles long. Turn inland (mauka) between mile markers 14 and 13 onto Honomu Road. Bear right at the top of the hill onto the main street of Honomu town. Here you will find a delightful selection of art galleries and gift stores as well as several cafes. Take your first right onto Akaka Falls Road and continue for 3.75 miles until you reach the parking lot."
+        imageUrl="images/diamond.jpg"
+        header="Diamont Head Crater"
+        text="It only takes a short drive or bus ride to get to Diamond Head Crater from Waikiki. This moderately challenging trail includes two sets of stairs, totaling 175 steps, as well as dark, underground tunnels and old military bunkers that require a flashlight. The stunning views that greet you at the top of Diamond Head are well worth the effort. If you plan to hike on Saturday morning, don’t forget to stop by the Kapiolani Community College Farmer’s Market—Oahu’s premier farmers market showcasing locally grown food and produce—across the street from the monument entrance on Monsarrat Avenue. In fact, there are a few notable cafes and restaurants lining Monsarrat that will make for a great pre- or post-Diamond Head meal."
       />
       <Item
-        imageUrl="images/mauna.jpg"
-        header="Mauna Kea Summit"
-        text="If you can only do one thing on the Big Island, you must visit Mauna Kea Summit. Measured from its base (at the seafloor) to the top, it is the tallest mountain in the world- and is simply wondrous to experience. Some of the clearest air on the planet can be found here, which means the star gazing is mind-blowing. Rent a car (or 4x4) or take a tour and make a stop at the Onizuka Center for International Astronomy (referred to as the ‘Visitors Center’) to learn more and to get acclimated to the altitude. The views from here are amazing, but can’t top those at the summit. Dress warmly and be prepared for a magical experience!"
+        imageUrl="images/hanauma.jpg"
+        header="Hanauma Bay"
+        text="Merely a 30-minute drive from Honolulu (when the traffic is good!), this stunning bay feels like a world away from the bustle of the city, which cannot even be seen from the beach as the large bay is surrounded by the lush green, gently fluted hills of Koko Head. The bay is secluded and tranquil in the early morning, but during the day becomes a very popular place for locals and visitors.  Before changes that occurred in 2020 (see below) due to the COVID-19 pandemic, thousands of people previously flocked to the bay each day to experience the excellent snorkeling in the area.  400 species of fish are known to inhabit the bay, and it is also known for its abundance of green sea turtles or honus."
       />
       <Item
-        imageUrl="images/manini.jpg"
-        header="Manini'owali Beach"
-        text="Sometimes called ‘Mile 88’ for its nearby mile marker, or ‘Kua Bay’ for its ease of pronunciation, this beach appears regularly on many a ‘Best Big Island Beaches’ lists, and with good reason. Although words cannot do it justice, imagine the most pristine white sand and crystal blue waters you can- then multiply by 100. Swimming is a favorite here when waters are calm, and snorkelers will enjoy the Hawaiian sea turtles and colorful tropical fish. Boogie boarders give it high marks, too, as do those hankering for some R&R. Take your reef-safe sunscreen and get ready to be wowed by this crescent-shaped slice of paradise."
+        imageUrl="images/ridge.jpg"
+        header="Kuliouou Ridge Trail"
+        text="The Kuliouou Ridge Trail is about 4.4 miles round trip and takes a good three to four hours to complete. Less then half an hour from Waikiki, the trailhead is located at the end of residential Kalaau Place. It is moderate in its challenge and features some stairs that make the climb easier. It is a pretty rocky terrain on steep inclines with many local varieties of plants and trees. The trail travels through several different environments showcasing the diversity of the Oahu landscape.The trail continues through an interesting archway of banyan branches, to an even more breathtaking view from the ridge. Stairs make it easier to reach the final plateau where you will thank your lucky stars for persevering when you see the overwhelming views of beautiful East Oahu."
       />
 
-      <div className="pre-headline" i d="go-eat"></div>
+      <div className="pre-headline" id="go-eat"></div>
       <h1 style={h1Style} id="go-eat">
         Go Eat
       </h1>
 
       <Item
-        imageUrl="images/manta.jpg"
-        header="Manta & Pavilion Wine Bar"
-        text="Any west side morning should start with the breakfast buffet at Manta & Pavilion Wine Bar. This is the place for long, leisurely breakfasts and chit chat over made-to-order waffles and omelets, fresh tropical fruits and juices, healthy whole grain cereals and various delicacies from the pastry kitchen with a cup of Big Island coffee. This is the Mauna Kea's breakfast buffet, with its ocean-overlook and birdsong symphony, and this is what your family will remember. Later on in the day venture to the exquisite crescent shaped white sand beach out front. You won't have to venture any further for great food or beach time."
+        imageUrl="images/poi.jpg"
+        header="Waiahole Poi Factory"
+        text="This is one of the few Hawaiian restaurants owned by native Hawaiians. Charlene and Calvin Hoe bought an actual poi factory in 1971, using it primarily as an art gallery, then began serving food in 2009. Today, it’s also one of the few places that serves fresh pa‘i‘ai, cooked taro pounded with a lava rock pestle on a long wooden board to a mochi-like consistency. You’ll have to call in advance to reserve some, and if you’re lucky, you might catch the Hoes’ son, Liko, pounding it near the outdoor tables. Try the kanaka nui plate, a combination of pretty much everything on the menu, add a side of ho‘io (fiddlehead fern) salad, and finish with the Sweet Lady of Waiahole, warm kulolo (a taro and coconut dessert) topped with a scoop of haupia (coconut) ice cream. "
       />
 
       <Item
-        imageUrl="images/brew.jpg"
-        header="Kailua-Kona Pub & Brewery"
-        text="Just across the street from the cruise port, the pub at the Big Island's most famous brewery is a terrific place to wind down after shopping. Brewery tours are quick and personal – an added bonus is that visitors over 21 get to sample the products. Kona's on premises brewpub serves cold mugs of the brewery's top sellers, including Fire Rock Pale, Pacific Golden Ale, and Longboard Lager, and the cozy setting easily pulls you in, making it difficult to leave. Great Hawaiian influenced pub grub – pizzas, salads, and sandwiches – is also available. Sample what's in season since the rest of the brews can be found all year long."
+        imageUrl="images/over.jpg"
+        header="Over Easy"
+        text="Honolulu loves breakfast, and few places do it better than Over Easy, a warm, happy family operation anyone would be proud to support. Delicate, golden, crispy-edged pancakes are the highlight of sweet dishes, but don’t leave without trying the pig hash with lomi tomatoes and Okinawan sweet potatoes, or the bacon-cabbage broth poured over a bowl of rice and Portuguese sausage. Outside seating and takeout are available."
       />
       <Item
-        imageUrl="images/jackie.jpg"
-        header="Jackie Rey's Ohana Grill"
-        text="Jackie Rey's Ohana Grill is a casual local's joint featuring fresh seafood, steaks, pasta and a variety of salads at affordable prices. The restaurant (named after our daughter) is the culmination of much hard work and the dedication of ourselves and our crew. We invite you to be our guests and experience great food and old fashioned hospitality, island style. Angie and Paul—Proprietors of your Local Ohana Grill. Established 2004."
+        imageUrl="images/coffee.jpg"
+        header="Morning Glass Coffee"
+        text="Since Morning Glass opened in 2011, plenty of other cafes have sprung up with interiors and menus seemingly designed for the ’gram. Morning Glass has retained its rustic, no-frills look, focusing instead on its coffee and solid baked goods, including a liliko‘i honey biscuit and savory breakfast sandwiches. While the space remains closed, you can still order food, espresso drinks, and fresh-brewed Hawai‘i-grown coffee to go, though orders must be placed online in advance. "
       />
       <div className="pre-headline" id="excursions"></div>
       <h1 style={h1Style} id="excursions">
         Excursions
       </h1>
       <Item
-        imageUrl="images/fire.jpg"
-        header="Circle of Fire Helicopter Tour from Hilo"
-        text="Fly over Hawaii Volcanoes National Park on a scenic helicopter flight from Hilo. Enjoy an aerial perspective of the Kilauea and Mauna Loa volcanoes and stunning views of the most geologically active environment on earth. Ride in comfort and safety in your choice of either an ECO-Star or A-Star helicopter. You'll hear informative commentary from your pilot as you spot the Halemaumau Crater and other sights in the national park, and pass over waterfalls and the Hamakua Coast."
+        imageUrl="images/shark.jpg"
+        header="Shark Dive On The North Shore"
+        text="Dare to enter the shark cage for the experience of a lifetime! A scenic boat ride will take you to the deep blue waters of the Pacific to reach the dive spot where you will enter the shark cage anchored off of Oahu’s North Shore. While submerged for about 20 minutes, you’ll get to see sharks swim right up to the cage! There is no real danger as you’ll likely just be viewing Sandbar Sharks which are harmless to humans. But that’s little comfort when you see a 15-foot shark swim just a few feet in front of your face. Your heart will definitely be racing when you see the first shark come into view. Of all the things we did while we lived on Oahu, this shark diving tour was by far our favorite! Depending on the season, you may also get a glimpse of Hawaiian green sea turtles, spinner dolphins, or even humpback whales. You’ll definitely want to bring your underwater camera for this epic Oahu tour!"
       />
       <Item
-        imageUrl="images/ray.jpg"
-        header="Manta Ray Night Snorkel"
-        text="Swim near a manta ray natural habitat on this 1.5-hour night snorkeling tour from Kona. Led by an expert guide, journey five minutes off the Big Island’s west coast where the mantas come to feast on plankton. Dive in the water, and swim in an area known for manta ray sightings. The area is lit by your vessels diving lights, so you can get a clear view even in dark waters. Afterward, dry off, and enjoy warm soup, bread rolls, and hot drinks as you recount your underwater adventures."
+        imageUrl="images/scruise.jpg"
+        header="Waikiki Sunset Catamaran Cruise"
+        text="There’s no better way to end a perfect day on Oahu than sailing on the Pacific Ocean as the sun sets over the horizon. And the best part is that on this Waikiki sunset catamaran cruise the drinks and pupus (that’s Hawaiian for appetizers) are included! As you board the luxury 53-foot sailing catamaran and begin your voyage, you’ll be greeted with a cocktail (the first 2 are complimentary). You’ll sail past Waikiki Beach towards iconic Diamond Head as the sky lights up with magnificent oranges and reds. People say that the sunsets in Hawaii are the best in the world and we tend to agree which is why we think this sunset is sure to be one of the highlights of your trip to Oahu."
       />
       <Item
-        imageUrl="images/morning.jpg"
-        header="Kealakekua Snorkel Tour"
-        text="Casually cruise the Kona coastline and snorkel with tropical marine life, as you splash in the waters of Kealakekua Bay on this deluxe Kona snorkeling cruise. Snorkeling equipment is provided on board, and professional instruction makes this Big Island snorkeling cruise a fun-filled family adventure. On the cruise between shore and the snorkeling site, keep your eyes peeled for spinner dolphins, turtles or even manta rays, and enjoy views of volcanic formations along the Kona coast."
+        imageUrl="images/ph.jpg"
+        header="Pearl Harbor: USS Arizona Memorial "
+        text="This Pearl Harbor tour departs from Waikiki and includes visits to both the USS Arizona Memorial and the USS Missouri battleship. Beforehand, you'll have the chance to learn about the Japanese attack at the Pearl Harbor Visitor Center, including its powerful documentary. The ride back to Waikiki takes you past Punchbowl (the National Memorial Cemetery of the Pacific) and the King Kamehameha statue. Book your Pearl Harbor tour in advance to save time on your Oahu trip Ask questions and gain insight about the events of December 7, 1941, from a guide Enjoy hassle-free round-trip transport from Waikiki Small-group tour provides a more personalized experience. Read more about Pearl Harbor: USS Arizona Memorial & USS Missouri Battleship Tour from Waikiki 2021 - Oahu - https://www.viator.com/tours/Oahu/Pearl-Harbor-USS-Arizona-Memorial-and-USS-Battleship-Missouri-from-Waikiki/d672-140273P4?mcid=56757"
       />
       <ScrollToTopBtn />
     </>
