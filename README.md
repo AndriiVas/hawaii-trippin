@@ -1,3 +1,3 @@
 Deployed to 
 
-#https://hawaii-trippin.herokuapp.com/
+https://hawaii-trippin.herokuapp.com/
